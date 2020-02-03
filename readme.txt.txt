@@ -1,0 +1,2 @@
+The classes labeled "Task..." are tests that reproduce the results obtained.
+For Task 1, make sure the file "polyominoesINF421.txt" is in the right eclipse directory or else change the path specified in the class Task 1.
