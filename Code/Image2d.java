@@ -74,7 +74,7 @@ public class Image2d {
 		return Ig;
 	}
 	
-	// method qui ne recrée rien, elle ajoute juste le polyo dans le dessin, ladder represents the length used for the edges of squares
+	// method qui ne recrÃ©e rien, elle ajoute juste le polyo dans le dessin, ladder represents the length used for the edges of squares
 //This method adds a polyomino drawing to an Image2d object, ladder being the unit used
 	public void DrawablePolyoM(Polyomino p, int ladder)
 	{
@@ -121,13 +121,13 @@ public class Image2d {
 		
 		for (Point p:squares)
 		{
-			//coté bas
+			//cotÃ© bas
 			Point p_D = new Point(p.x,p.y-1*k);
-			//coté haut
+			//cotÃ© haut
 			Point p_U = new Point(p.x,p.y+1*k);
-			//coté droite
+			//cotÃ© droite
 			Point p_R = new Point(p.x+1*k,p.y);
-			//coté gauche
+			//cotÃ© gauche
 			Point p_L = new Point(p.x-1*k,p.y);
 			
 			if (! IsIn(p_D, polyo))
